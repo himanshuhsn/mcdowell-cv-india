@@ -93,6 +93,14 @@ Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
   shape = {sc*,si,scit}
 }
 
+% For hyperlink
+\usepackage{fontawesome}
+\usepackage[hidelinks]{hyperref}
+
+% Redefinition, symbol included in link:
+\let\orighref\href
+\renewcommand{\href}[2]{\orighref{#1}{#2\,\faExternalLink}}
+
 %--------------------------------------------------------------------------------
 %                                   Constants                                   -
 %--------------------------------------------------------------------------------
@@ -125,6 +133,7 @@ Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
   \def\beforesectionheaderhrulespace{3pt}
   \def\sectionheaderhrlueheight{0.5pt}
   \def\aftersectionheaderspace{-4pt}
+  \def\beforeprofilespace{10pt}
   
   \ifpapersize
     \def\aftersinglelinesubsectionheaderspace{-4pt}
@@ -182,11 +191,58 @@ Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
 
 \makeatother
 
+%% Profiles
+% Linkedin
+\makeatletter
+
+\newcommand\linkedin[1]{\def\@linkedin{#1}}
+\linkedin{}
+
+\newcommand\printlinkedin{
+  {\small{\@linkedin}}
+}
+
+\makeatother
+
+% Github
+\makeatletter
+
+\newcommand\github[1]{\def\@github{#1}}
+\github{}
+
+\newcommand\printgithub{
+  \small{\@github}
+}
+
+\makeatother
+
+% Leetcode
+\makeatletter
+
+\newcommand\leetcode[1]{\def\@leetcode{#1}}
+\leetcode{}
+
+\newcommand\printleetcode{
+  \small{\@leetcode}
+}
+
+\makeatother
+
+% Profiles
+\makeatletter
+
+\newcommand\printprofile{
+  \vspace*{\beforeprofilespace} \printlinkedin & \vspace*{\beforeprofilespace} \printgithub & \vspace*{\beforeprofilespace} \printleetcode
+}
+
+\makeatother
+
 \makeatletter
 \newcommand\makeheader{
   \begin{center}
     \begin{tabu} to 1\textwidth { X[l,m] X[2,c,m] X[r,m] }
       \printaddress & \printname & \printcontacts \\
+      \printprofile
     \end{tabu}
   \end{center}
   \vspace*{\afterheaderspace}
