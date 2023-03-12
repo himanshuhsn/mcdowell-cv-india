@@ -8,7 +8,7 @@ The class is based on `article` class. The paper format is set to U.S. letterpap
 <img src="https://github.com/himanshuhsn/mcdowell-cv-india/blob/master/McDowell_CV.png" width="240px"/>
 
 ## Use with Overleaf
-<img src="https://ucbe9456bbfce83bc61a5f4cb014.dl.dropboxusercontent.com/cd/0/inline/B4EmTqMV32JrmcKkSGzzE5sQRWwPHphgmkPYDE2a6uogU8vP4N_8JB3rX5cqgcZQtP7t9Ex_WHCkDLVQJdyg8FRSrpbnmibvHTBewo0VKdEBGjM0UtXmkv4Jdt4q2cwQflKPHRBVDsDN7mnJWI234JrBpPXtvbeWTeyB4KhPQ2Jg-Q/file#"/>
+<img src="https://i.ibb.co/TH3wSN6/mcdowell-cv-overleaf-use.gif"/>
 
 Above image not displaying? 🥲 Check the image [here](https://www.dropbox.com/s/q4j3yj8iforn4z2/mcdowell-cv-overleaf-use.gif?raw=1).
 
