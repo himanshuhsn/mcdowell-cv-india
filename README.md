@@ -8,7 +8,7 @@ The class is based on `article` class. The paper format is set to U.S. letterpap
 <img src="https://github.com/himanshuhsn/mcdowell-cv-india/blob/master/McDowell_CV.png" width="240px"/>
 
 ## Use with Overleaf
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmI3YmM3MDBiYWU1YTcwZmM5MTI3NmYxZjA3MDc0MTIyNGZlZDQwOSZjdD1n/hoEoz3ZMEEuiC0JnZb/giphy.gif"/>
+<img src="https://ucbe9456bbfce83bc61a5f4cb014.dl.dropboxusercontent.com/cd/0/inline/B4EmTqMV32JrmcKkSGzzE5sQRWwPHphgmkPYDE2a6uogU8vP4N_8JB3rX5cqgcZQtP7t9Ex_WHCkDLVQJdyg8FRSrpbnmibvHTBewo0VKdEBGjM0UtXmkv4Jdt4q2cwQflKPHRBVDsDN7mnJWI234JrBpPXtvbeWTeyB4KhPQ2Jg-Q/file#"/>
 
 ## Use Cases
 - A great tool making it easy to build CVs: https://latexresu.me/.
